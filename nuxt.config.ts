@@ -11,5 +11,6 @@ export default defineNuxtConfig({
       firebaseMessagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
       firebaseAppId: process.env.FIREBASE_APP_ID
     }
-  }
+  },
+  css: ['bootstrap/dist/css/bootstrap.min.css'],
 })
